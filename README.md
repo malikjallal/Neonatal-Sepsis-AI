@@ -1,9 +1,24 @@
 # Neonatal Sepsis Early Prediction Using AI
 
-This repository presents a patient-aware deep learning framework for the **early prediction of neonatal sepsis**, with a focus on **preterm infants** admitted to the Neonatal Intensive Care Unit (NICU).  
-The system leverages **non-invasive vital signs**, specifically **Heart Rate (HR)** and **Oxygen Saturation (SpO₂)**, to identify early physiological patterns associated with sepsis *before clinical onset*.
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red)
+![Model](https://img.shields.io/badge/Model-GRU%20%7C%20LSTM-orange)
+![Project](https://img.shields.io/badge/Type-Research%20Project-yellow)
+![License](https://img.shields.io/badge/License-MIT-green)
+
+This repository presents a **patient-aware deep learning framework** for the **early prediction of neonatal sepsis**, focusing on **preterm infants** admitted to the Neonatal Intensive Care Unit (NICU).  
+The system leverages **non-invasive vital signs**, specifically **Heart Rate (HR)** and **Oxygen Saturation (SpO₂)**, to identify early physiological deterioration *before clinical onset*.
 
 ---
+
+## Framework Overview
+
+<p align="center">
+  <img src="figures/pipeline_framework.png" width="95%">
+</p>
+
+The figure above illustrates the end-to-end pipeline of the proposed framework, starting from raw NICU physiological monitoring, through preprocessing and temporal sequence construction, to GRU/LSTM-based modeling and post-processing for clinically actionable alert generation.
+
 
 ## Project Overview
 
