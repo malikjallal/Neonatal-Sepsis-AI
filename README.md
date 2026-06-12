@@ -14,7 +14,7 @@ The system leverages **non-invasive vital signs**, specifically **Heart Rate (HR
 ## Framework Overview
 
 <p align="center">
-  <img src="figures/pipeline_framework.png" width="95%">
+  <img src="figures/Overall framework pipeline.png" width="95%">
 </p>
 
 The figure above illustrates the end-to-end pipeline of the proposed framework, starting from raw NICU physiological monitoring, through preprocessing and temporal sequence construction, to GRU/LSTM-based modeling and post-processing for clinically actionable alert generation.
