@@ -17,7 +17,7 @@ The system leverages **non-invasive vital signs**, specifically **Heart Rate (HR
   <img src="figures/Overall framework pipeline (1).png" width="95%">
 </p>
 
-The figure above illustrates the end-to-end pipeline of the proposed framework, starting from raw NICU physiological monitoring, through preprocessing and temporal sequence construction, to GRU/LSTM-based modeling and post-processing for clinically actionable alert generation.
+The figure above illustrates the end-to-end pipeline of the proposed framework, starting from raw NICU physiological monitoring, through preprocessing and temporal sequence construction, toMachine Learning and LSTM and ensemble Learning-based modeling and post-processing for clinically actionable alert generation.
 
 
 ## Project Overview
@@ -28,19 +28,11 @@ This project proposes an **end-to-end, patient-aware deep learning framework** t
 
 - Robust physiological data preprocessing  
 - Time-series feature extraction and temporal sequence construction  
-- **Recurrent neural network modeling using GRU and LSTM architectures**  
+- **Machine Learning and LSTM and ensemble Learning**  
 - Post-processing mechanisms for clinically meaningful alert generation  
 
 The framework is designed to support **early warning prediction**, minimize false alarms, and reflect realistic NICU deployment conditions.
 
----
-
-## Why GRU and LSTM?
-
-Recurrent neural networks are well-suited for modeling physiological time-series due to their ability to capture temporal dependencies. In this work, **both Long Short-Term Memory (LSTM) and Gated Recurrent Unit (GRU)** architectures were investigated to leverage their complementary strengths.
-
-- **LSTM** models long-term temporal dependencies using explicit memory and gating mechanisms, making it effective for capturing gradual physiological deterioration patterns.
-- **GRU**, with its simplified gating structure, offers comparable representational capacity while requiring fewer parameters, leading to faster convergence and improved stability on large-scale, imbalanced clinical datasets.
 
 Evaluating both architectures enables a balanced assessment between **model expressiveness, computational efficiency, and generalization performance**, which is critical in safety-sensitive healthcare applications.
 
@@ -53,7 +45,7 @@ Evaluating both architectures enables a balanced assessment between **model expr
 - Statistical and cross-correlation features  
 - Forecast-based labeling with a 24-hour prediction horizon  
 - Patient-aware train/validation/test splitting  
-- Temporal modeling using **GRU and LSTM networks**  
+- Temporal modeling using **Machine Learning and LSTM and ensemble Learning**  
 - Post-processing for alarm stabilization  
 
 ---
@@ -66,7 +58,7 @@ Evaluating both architectures enables a balanced assessment between **model expr
 - **Python**
 - **NumPy, Pandas**
 - **PyTorch**
-- **GRU and LSTM-based Deep Learning**
+- **Machine Learning and LSTM and ensemble Learning**
 - **Time-Series Analysis**
 
 ---
@@ -75,7 +67,7 @@ Evaluating both architectures enables a balanced assessment between **model expr
 
 - Patient-aware preprocessing pipeline to prevent data leakage  
 - Forecast-based labeling strategy for early neonatal sepsis prediction  
-- Comparative evaluation of GRU and LSTM architectures  
+- Comparative evaluation of Machine Learning and LSTM and ensemble Learning architectures  
 - Clinically motivated post-processing for alert generation  
 
 ---
